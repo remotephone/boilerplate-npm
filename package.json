@@ -5,11 +5,19 @@
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
-	},
+		"build": "npm install",
+		"start": "node server.js",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d ."
+		},
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
 	},
-	"author": "remotephone"
+	"author": "Remote Phone",
+	"devDependencies": {
+		"gh-pages": "^3.2.3"
+	},
+	"homepage": "http://remotephone.github.io/npm-app",
+	"description": "This is my description"
 }
