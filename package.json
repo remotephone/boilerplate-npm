@@ -18,6 +18,6 @@
 	"devDependencies": {
 		"gh-pages": "^3.2.3"
 	},
-	"homepage": "http://remotephone.github.io/npm-app",
+	"homepage": "https://remotephone.github.io/boilerplate-npm/",
 	"description": "This is my description"
 }
