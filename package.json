@@ -1,0 +1,22 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"build": "npm install",
+		"start": "node server.js",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d ."
+		},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	},
+	"author": "Remote Phone",
+	"devDependencies": {
+		"gh-pages": "^3.2.3"
+	},
+	"homepage": "http://remotephone.github.io/npm-app"
+}
