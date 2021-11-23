@@ -20,4 +20,5 @@
 	},
 	"homepage": "https://remotephone.github.io/boilerplate-npm/",
 	"description": "This is my description",
+	"keywords": [ "cool", "freecodecamp", "wow" ]
 }
